@@ -18,12 +18,14 @@ from django.contrib import admin
 from django.urls import path,include
 from django.conf.urls.static import static
 from django.contrib.auth import views as auth_views
+from EmpApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("login/", auth_views.LoginView.as_view(template_name="EmpApp/login.html")),
     path("logout/", auth_views.LogoutView.as_view()),
-    path('emp/',include('EmpApp.urls'))
+    path('emp/',include('EmpApp.urls')),
+    path('',views.home),
 ]
 
 urlpatterns += static(
