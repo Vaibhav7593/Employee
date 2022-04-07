@@ -59,6 +59,7 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+/static
 db.sqlite3-journal
 
 # Flask stuff:
@@ -127,3 +128,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+*.pyc  
+*~  
+__pycache__  
+myvenv  
+db.sqlite3  
+/static  
+.DS_Store  
