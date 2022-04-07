@@ -82,8 +82,7 @@ DATABASES = {
         'NAME': 'employee_db',
         'USER': 'root',
         'PASSWORD': '5793',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'HOST': 'db',
     }
 }
 
