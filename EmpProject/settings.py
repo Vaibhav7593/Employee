@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': 'employee_db',
         'USER': 'root',
         'PASSWORD': '5793',
-        'HOST': 'db',
+        'HOST': 'vaibhav5793.mysql.pythonanywhere-services.com',
     }
 }
 
