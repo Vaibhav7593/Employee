@@ -1,4 +1,4 @@
-from tokenize import Name
+
 from django.db import models
 
 class Employee(models.Model):
