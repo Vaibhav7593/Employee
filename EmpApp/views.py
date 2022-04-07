@@ -24,7 +24,7 @@ def add_employee(request):
 @login_required
 def list_emp(request):
     data=Employee.objects.all()
-    return render(request,'Empapp/list.html',{'data': data})
+    return render(request,'EmpApp/list.html',{'data': data})
 
 @login_required
 def emp_detail(request,id):
